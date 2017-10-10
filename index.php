@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
-<?php get_header() ?>
+    <?php get_template_part('components/layout/head'); ?>
   </head>
-  <body>
+  <body <?php body_class(); ?>>
     
-      
+   
    <header> 
-       
+   <?php get_header(); ?>
    </header>
       
    <main>
+   jbhefhjewfe
    </main>   
       
    <footer>
+    <?php get_footer(); ?>
    </footer>
   
   </body>
