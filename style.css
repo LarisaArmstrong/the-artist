@@ -12,4 +12,23 @@ Text Domain: The Artist
 */
 
 @import url("css/vendor/jquery.fullPage.css");
-@import url("css/application.css");
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: inline;
+    padding: 5%;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 10px;
+}

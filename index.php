@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-    <?php get_template_part('components/layout/head'); ?>
+    <?php get_template_part('head'); ?>
   </head>
   <body <?php body_class(); ?>>
     
@@ -11,7 +11,7 @@
    </header>
       
    <main>
-   jbhefhjewfe
+   
    </main>   
       
    <footer>
