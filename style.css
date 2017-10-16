@@ -11,28 +11,3 @@ Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-backgr
 Text Domain: The Artist
 */
 
-@import url("css/vendor/jquery.fullPage.css");
-
-ul {
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-    margin-bottom: 90%;
-}
-
-li {
-    display: inline;
-    list-style-type: none;
-}
-
-a {
-    cursor: pointer;
-    text-decoration: none;
-    margin-top: 15%;
-    text-align: center;
-    display: inline;
-    padding: 5%;
-    font-size: 18px;
-    color: black;
-    letter-spacing: 10px;
-}
