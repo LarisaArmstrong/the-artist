@@ -12,7 +12,7 @@ get_header(); ?>
    
         while( have_posts() ): the_post(); ?>
         
-          <h1> Static Title </h1>
+          
          
           <p><?php the_content(); ?></p>
           
