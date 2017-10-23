@@ -1,10 +1,23 @@
-<?php 
+<div id="journal">
+ 
+    <div class="flexmain">
+      <div class="journal-head">JOURNAL</div>
+      
+      <div class="logo2">MICHAEL MACK</div>
+      </div>
+      
+      <?php 
 
 /*
     Template Name: Page Blog Post Layout
 */
 
-get_header(); ?>
+get_header(); ?>    
+</div>
+
+
+
+
       
    <?php 
    

@@ -1,12 +1,3 @@
-<?php 
-
-/*
-    Template Name: About Page Layout
-*/
-
-get_header(); ?>
-      
-    
 
    <?php 
    
@@ -16,12 +7,19 @@ get_header(); ?>
 
           <p><?php the_content(); ?></p>
           
-          <hr>
      
         <?php endwhile;
 
       endif;
 
    ?>
+
+<?php 
+
+/*
+    Template Name: About Page Layout
+*/
+
+get_header(); ?>
   
-   <?php get_footer(); ?>
+  
