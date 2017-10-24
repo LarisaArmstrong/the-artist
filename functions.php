@@ -21,15 +21,17 @@ function artist_setup() {
     add_theme_support('menus');
     register_nav_menu('primary', 'Primary Header Navigation');
     register_nav_menu('secondary', 'Footer Navigation');
-}
+};
 
 add_action( 'init', 'artist_setup' );
 
-// if ( function_exists( 'the_custom_logo' ) ) {
-//     the_custom_logo();
-// }
+function artist_post_formats_setup(){
+    add_theme_support('post-formats', array('aside', 'image', 'video', 'quote', 'gallery'));
+}
 
-add_theme_support('post-formats', array('aside', 'image', 'video', 'quote', 'gallery'));
+add_action( 'after_setup_theme', 'artist_post_formats_setup' );
+
+
 
 
 
