@@ -17,7 +17,7 @@ li {
     list-style-type: none;
 }
 
-a {
+ul li a {
     cursor: pointer;
     text-align: center;
     display: inline;
@@ -100,7 +100,7 @@ a:hover {
     margin: 0 auto; 
 }
 
-.about-text {
+#text-16 {
     padding-top: 5%;
     width: 60%;
     margin: 0 auto;
@@ -110,7 +110,7 @@ a:hover {
     transition: all 0.5s ease-in-out;
 }
 
-.about-text:hover {
+#text-16:hover {
     color: #161616;
     text-shadow: none;
 }
@@ -118,13 +118,27 @@ a:hover {
 
 /* portfolio page */
 
+
+.portfolio-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page-id-93 ul {
+    padding-top: 5%;
+
+}
+
 .page-id-93 a {
     color: black;
 }
-
 .page-id-93 a:hover {
     color: #a0a0a0;
-    transition: color 0.5s;   
+    transition: color 0.5s; 
+}
+ 
+.widget-title {
+   display: none;
 }
 
 .flex-image {
@@ -188,21 +202,38 @@ a:hover {
 
 /* post image format */
 
-.post {
-    width: 40%;
+.image-post-format {
+    width: 90%;
     margin: 0 auto;
     padding-top: 5%;
-    /* display: flex;
-    justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
 }
 
-.post-content {
+.post-area {
+    width: 25%;
+}
+
+.post-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.blog-content {
     font-family: 'Oswald', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
+    padding-top: 2%; 
 }
 
 
+/* contact page */
+
+.page-id-26 a {
+    color: #161616;
+}
 
 
 
@@ -321,3 +352,147 @@ footer {
 
 /* image post format */
 
+
+
+
+
+
+/* -------------mobile-------------------
+----------------------------------------- */
+
+@media screen and (min-width:180px) and (max-width:700px) {
+
+/* home page */
+
+.main-logo {
+    letter-spacing: 20px;
+    margin-top: 10%;
+    font-size: 40px;  
+}
+
+.tagline {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+ 
+ul {
+    width: 10%;
+    text-align: left;
+    padding-top: 12%;
+    text-transform: uppercase;  
+    margin-left: 0;
+}
+
+
+
+a {
+    text-align: left;
+    padding: 5%;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+/* bio page */
+
+.bio-head {
+    font-size: 24px;
+    letter-spacing: 15px;
+    font-weight: 700;
+}
+
+.logo-small {
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.flexmain {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.about-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #161616;
+    text-shadow: none;
+    transition: none;
+}
+
+/* contact page */
+
+.contact {
+    width: 50%;
+}
+
+    
+}    
+
+/* -------------tablet-------------------
+----------------------------------------- */
+
+@media screen and (min-width:701px) and (max-width:1024px) {
+
+/* home page */
+
+.tagline {
+    width: 60%;
+    font-size: 18px;
+}
+ 
+ul {
+    width: 10%;
+    text-align: left;
+    padding-top: 5%;
+    text-transform: uppercase;  
+    margin-left: 0;
+}
+
+
+
+a {
+    text-align: left;
+    padding: 5%;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+   
+/* bio page */
+
+.bio-head {
+    font-size: 24px;
+    letter-spacing: 15px;
+    font-weight: 700;
+}
+
+.logo-small {
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.flexmain {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.about-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #161616;
+    text-shadow: none;
+    transition: none;
+}
+
+
+}    

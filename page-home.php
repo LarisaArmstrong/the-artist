@@ -15,7 +15,9 @@
 
     ?>
 
-    
+<div class="home-section">
+<?php dynamic_sidebar('Home Page'); ?>   
+</div> 
 
     <?php get_header(); ?>
 </div>

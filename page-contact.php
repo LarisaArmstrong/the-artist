@@ -1,6 +1,6 @@
 <?php
 /**
-*Template Name: Portfolio Page Layout
+*Template Name: Contact Page Layout
 *   
 *@package WordPress
 *@subpackage basquiat
@@ -8,10 +8,10 @@
 **/
 ?>
 
-<div class="portfolio-section">
-<?php dynamic_sidebar('Portfolio'); ?>   
-</div> 
 
+<div class="contact-section">
+<?php dynamic_sidebar('Footer'); ?>   
+</div> 
 
    <?php 
    

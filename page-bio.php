@@ -1,3 +1,20 @@
+<?php
+/**
+*Template Name: About Page Layout
+*   
+*@package WordPress
+*@subpackage basquiat
+*@since basquiat 1.0
+**/
+?>
+
+<div class="bio-page">
+  <div class="flexmain">
+    <div class="bio-head"><?php dynamic_sidebar('About Page Heading'); ?></div>
+    <div class="logo-small"><?php dynamic_sidebar('Page Logo'); ?></div>
+  </div> 
+  <p class="about-text"><?php dynamic_sidebar('About Page Text'); ?></p>
+</div>
 
    <?php 
    
@@ -15,10 +32,6 @@
    ?>
 
 <?php 
-
-/*
-    Template Name: About Page Layout
-*/
 
 get_header(); ?>
   
