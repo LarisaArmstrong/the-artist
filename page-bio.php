@@ -10,7 +10,7 @@
 
 <div class="bio-page">
   <div class="flexmain">
-    <div class="bio-head"><?php dynamic_sidebar('About Page Heading'); ?></div>
+    <div class="page-head"><?php dynamic_sidebar('About Page Heading'); ?></div>
     <div class="logo-small"><?php dynamic_sidebar('Page Logo'); ?></div>
   </div> 
   <p class="about-text"><?php dynamic_sidebar('About Page Text'); ?></p>

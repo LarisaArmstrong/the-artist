@@ -1,6 +1,7 @@
 <!-- aside post format -->
 
-<h3><?php the_title(); ?></h3>
-<small>Posted on: <?php the_time('F j, V'); ?> at <?php the_time('g:i a'); ?></small>
-<p><?php the_content(); ?></p>
-<hr>
+<div class="aside">
+    <h3 class="post-title"><?php the_title(); ?></h3>
+    <small class="when"><?php the_time('F j'); ?> / <?php the_time('g:i a'); ?></small>
+    <p><?php the_excerpt(); ?></p>
+</div>

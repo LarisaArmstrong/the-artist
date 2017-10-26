@@ -49,7 +49,7 @@ a:hover {
 }
 
 .tagline {
-    width: 30%;
+    width: 50%;
     color: #efefef;
     font-size: 14px;
     letter-spacing: 2px;
@@ -59,10 +59,29 @@ a:hover {
 }
 
 
+.form-control {
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    border: none;
+    border-bottom-color: #c7c7c7;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    background: transparent;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+input {
+    color: #efefef;
+}
+
 /* bio page  */
 
 .page-id-24 a {
-    color: black;
+    color: #161616;
 }
 
 .page-id-24 a:hover {
@@ -75,8 +94,8 @@ a:hover {
     margin: 0 auto;
 }
 
-.bio-head {
-    font-size: 36px;
+.page-head {
+    font-size: 32px;
     color: #161616;
     letter-spacing: 20px;
     text-transform: uppercase;
@@ -86,7 +105,7 @@ a:hover {
 .logo-small {
     width: 10%;
     height: 10%;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 10px;
     font-weight: 700;
     color: #161616;
@@ -97,8 +116,11 @@ a:hover {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
+   padding: 0;
+
 }
+
 
 #text-16 {
     padding-top: 5%;
@@ -125,7 +147,7 @@ a:hover {
 }
 
 .page-id-93 ul {
-    padding-top: 5%;
+    padding-top: 3%;
 
 }
 
@@ -169,8 +191,17 @@ a:hover {
     background-size: cover;
     background-position: center;
     margin: 0;
-    padding: 0;
+    padding-top: 5%;
+    color:#efefef;
 }
+
+/* .page-id-64 .flexmain {
+    color:#efefef;
+}
+
+.page-id-64 .page-head {
+    color:#efefef;
+} */
 
 .flex-head {
     display: flex;
@@ -179,6 +210,19 @@ a:hover {
     margin: 0 auto; 
     margin-top: 5%;
 }
+
+/* .text-22 {
+    color: #efefef;
+} */
+/* 
+.flex-blog {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+   padding: 0;
+   color: #efefef;
+} */
 
 .journal-head {
     color: #efefef;
@@ -198,55 +242,161 @@ a:hover {
     text-transform: uppercase;
 }
 
+.cat-format {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+}
 
 
 /* post image format */
 
 .image-post-format {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 5%;
-    display: flex;
-    justify-content: space-around;
+    padding: 2%;
 }
 
 .post-area {
-    width: 25%;
+    width: 100%;
 }
 
 .post-title {
     text-transform: uppercase;
     font-size: 18px;
     text-align: left;
+    letter-spacing: 2px;
 }
 
+.post-image {
+    width: 100%;
+    margin-bottom: 5%;
+}
 
 .blog-content {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     width: 100%;
-    padding-top: 2%; 
+}
+
+.post-line {
+    height: 4px;
+    width: 100%;
+    background-color: #161616;
+}
+
+.aside {
+    width: 80%;
 }
 
 
 /* contact page */
 
+.page-id-26 ul {
+    padding-top: 5%;
+}
+
 .page-id-26 a {
     color: #161616;
 }
 
+.page-id-26 a:hover {
+    color: #a0a0a0;
+    transition: color 0.5s;
+}
+
+.page-id-26 .flexmain {
+    padding-top: 2%;
+}
+
+.social-media-link-15539 {
+    text-decoration: none;
+}
+
+.social-media-link-15539:hover{
+    text-decoration: none;
+}
+
+i:hover {
+    color: #525252;
+}
+
+.contact-form {
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vscf-sidebar-text {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color: #161616;
+    border-top-color: #161616;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    padding: 1%;
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-group {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1%;
+}
+
+.btn, .btn-primary {
+    background-color: #161616;
+    width: 50%;
+    padding: 5%;
+    margin-top: 25%;
+    color: #efefef;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #efefef;
+    color: #161616;
+    transition: 0.2s; 
+}
+
+.vscf {
+    padding-top: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    margin: 0 auto;
+}
 
 
 /* footer section */
 
-footer {
+.footer-section {
     background-image: url(../img/mooning_@2X.png);
     width: 100%;
-    margin: 0;
+    margin-top: 5%;
     padding: 0;
 }
 
-.logo {
+.f-logo {
     width: 33,3%;
     height: 10%;
     padding-top: 5%;
@@ -264,13 +414,19 @@ footer {
     text-align: left;
 }
 
-.contact, .social {
+.contact {
     color: #fff;
     font-size: 18px;
     letter-spacing: 2px;
     margin-top: 5%;
     width: 33,3%;
 }
+
+.social {
+    width: 1px;
+    margin-top: 5%;
+}
+
 
 .copy {
     width: 100%;
@@ -306,13 +462,13 @@ footer {
     width: 100%;
     z-index: 1;
     margin-bottom: -5%;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
 .cat-section {
     padding-top: 10%;
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
@@ -329,8 +485,7 @@ footer {
 /* quote post format */
 
 .quote-format {
-    width: 100%;
-    padding-top: 5%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -344,16 +499,21 @@ footer {
 
 
 .quote-line {
-    width: 70%;
+    width: 50%;
     margin-top: 1%;
-    height: 3px;
+    height: 4px;
     background-color: black; 
 }
 
 /* image post format */
 
 
-
+/* .image-post-format {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
 
 
 
@@ -396,7 +556,7 @@ a {
 
 /* bio page */
 
-.bio-head {
+.page-head {
     font-size: 24px;
     letter-spacing: 15px;
     font-weight: 700;
@@ -431,7 +591,11 @@ a {
     width: 50%;
 }
 
-    
+.cat-format {
+    flex-wrap: wrap;
+}
+
+
 }    
 
 /* -------------tablet-------------------
@@ -465,7 +629,7 @@ a {
    
 /* bio page */
 
-.bio-head {
+.page-head {
     font-size: 24px;
     letter-spacing: 15px;
     font-weight: 700;

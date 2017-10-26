@@ -8,8 +8,14 @@
 **/
 ?>
 
-<div class="portfolio-section">
-<?php dynamic_sidebar('Portfolio'); ?>   
+
+  <div class="flexmain">
+    <div class="page-head"><?php dynamic_sidebar('Portfolio Page Heading'); ?></div> 
+    <div class="logo-small"><?php dynamic_sidebar('Page Logo'); ?></div>
+  </div> 
+
+<div class="portfolio-section">   
+  <?php dynamic_sidebar('Portfolio'); ?>   
 </div> 
 
 

@@ -8,12 +8,14 @@
 **/
 ?>
 
+<div class="flexmain">
+    <div class="page-head"><?php dynamic_sidebar('Contact Page Heading'); ?></div> 
+    <div class="logo-small"><?php dynamic_sidebar('Page Logo'); ?></div>
+  </div> 
 
-<div class="contact-section">
-<?php dynamic_sidebar('Footer'); ?>   
-</div> 
+<div class="contact-form"><?php dynamic_sidebar('Contact Form'); ?></div>
 
-   <?php 
+<?php 
    
       if( have_posts() ):
    
@@ -31,3 +33,7 @@
 <?php 
 
 get_header(); ?>
+
+<?php get_footer(); ?> 
+
+

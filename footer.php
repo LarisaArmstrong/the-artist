@@ -1,32 +1,13 @@
     <footer>
         
-      
-      <div class="footer-flex">
-        <div class="logo footL">MICHAEL <br> MACK</div>
-        <div class="contact">MACK<br><br>
-
-            Studio E, Ground Floor<br>
-            Emperor House<br>
-            Dragonfly Place<br>
-            London SE4 2FL<br><br>
-
-            Tel. +44 207 442 2190<br>
-            info@mackbooks.co.uk<br>
-            www.mackbooks.co.uk
-        </div>
-        <div class="social">
-            FACEBOOK<br><br>
-            BEHANCE<br><br>
-            INSTAGRAM<br><br>
-            TWITTER<br><br>
-        </div>
-          
-          
-          
-        </div>  
-        
-          <div class="copy">&copy; 2017 MICHAEL MACK </div>
-    
+    <div class="footer-section">
+    <div class="footer-flex"> 
+      <div class="f-logo"><?php dynamic_sidebar('Footer Logo'); ?></div> 
+      <div class="contact"><?php dynamic_sidebar('Footer Contact Info'); ?></div>
+      <div class="social"><?php dynamic_sidebar('Footer Social Icons'); ?></div>
+    </div>  
+    <div class="copy"><?php dynamic_sidebar('Footer Copyright'); ?></div>
+  </div>
 
     </footer>  
     

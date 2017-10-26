@@ -1,13 +1,16 @@
+
+
 <!-- index - blog post page -->
+
 
   <div class="journal-page">
   
   <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" class="header-logo" />
 
-      <div class="flex-head">
-        <div class="journal-head">JOURNAL</div>
-        <div class="logo-small2">MICHAEL MACK</div>
-      </div>
+  <div class="flexmain">
+    <div class="journal-head"><?php dynamic_sidebar('Blog Page Heading'); ?></div>
+    <div class="logo-small2"><?php dynamic_sidebar('Page Logo'); ?></div>
+  </div> 
 
     <?php get_header(); ?>    
 
@@ -22,6 +25,10 @@
       <hr class="cat-line">
       <div class="cat-name"><?php echo get_cat_name(15); ?></div>
     </div>
+
+  </div>
+
+  <div class="cat-format">
       
     <?php 
 
@@ -51,6 +58,10 @@
       <hr class="cat-line">
       <div class="cat-name"><?php echo get_cat_name(14); ?></div>
     </div>
+   
+    </div>  
+
+    <div class="cat-format">
 
     <?php
         
@@ -80,6 +91,10 @@
       <hr class="cat-line">
       <div class="cat-name"><?php echo get_cat_name(1); ?></div>
     </div>
+
+    </div>
+    
+  <div class="cat-format">
 
     <?php
         
