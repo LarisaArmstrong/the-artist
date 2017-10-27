@@ -1,7 +1,7 @@
 <!-- standard post format -->
 
-<h3><?php the_title(); ?></h3>
+<?php the_title(sprintf('<h3 class="post-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h3>' ); ?>
 <div class="thumbnail-img"><?php the_post_thumbnail('large'); ?></div>
 <small>Posted on: <?php the_time('F j, V'); ?> at <?php the_time('g:i a'); ?></small>
-<p><?php the_content(); ?></p>
-<hr>
+<p><?php the_excerpt(); ?></p>
+

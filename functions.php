@@ -38,6 +38,28 @@ function artist_post_formats_setup(){
 add_action( 'after_setup_theme', 'artist_post_formats_setup' );
 
 
+function custom_excerpt_length( $length ) {
+    return 50;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+
+/*      
+   ==============================================
+    Replace the excerpt "Read More" text by a link
+    ==============================================
+*/
+function new_excerpt_more($more) {
+      global $post;
+    return '... <br><br><a class="moretag" href="'. get_permalink($post->ID) . '">Read more</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
+
+
+
+
 // sidebar and widgets function
 // --------------------------
 
