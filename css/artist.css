@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     width: 100%;
     height: 100%;
     font-family: 'Teko', sans-serif;
@@ -256,7 +257,7 @@ input {
     transition: color 0.5s;
 }
 
-.moretag {
+.moretag  {
     padding: 10px;
     text-decoration: none !important;
     color: black !important;   
@@ -270,7 +271,7 @@ input {
     text-transform: uppercase;
 }
 
-.more-tag:hover{
+.more-tag:hover a:hover{
     text-decoration: line-through;
     color: #a0a0a0;
     transition: color 0.5s;
@@ -501,6 +502,11 @@ i:hover {
     margin-top: 1%;
     height: 4px;
     background-color: black; 
+}
+
+.when {
+    float: right;
+    box-sizing: border-box;
 }
 
 
@@ -802,5 +808,32 @@ a {
 .form-group {
     width: 100%;
 }
+
+} 
+
+
+/* -------------desktop-------------------
+----------------------------------------- */
+
+@media screen and (min-width:1025px) and (max-width:1920px) {
+
+.tagline {
+    font-size: 18px;
+    width: 60%;
+    text-shadow:
+    -0.2px -0.2px 0 #000,
+    0.2px -0.2px 0 #000,
+    -0.2px 0.2px 0 #000,
+    0.2px 0.2px 0 #000;
+    }
+
+ul li a {
+    text-shadow:
+    -0.2px -0.2px 0 #000,
+    0.2px -0.2px 0 #000,
+    -0.2px 0.2px 0 #000,
+    0.2px 0.2px 0 #000;
+}
+
 
 }    
