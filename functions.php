@@ -245,6 +245,5 @@ function artist_widget_setup() {
 
 }
 
-
 add_action('widgets_init','artist_widget_setup');
 
